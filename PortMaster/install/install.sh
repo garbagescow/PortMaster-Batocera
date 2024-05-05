@@ -6,7 +6,7 @@ if [[ "$(uname -m)" != "aarch64" ]]; then
     exit 1
 fi
 
-# Intro animated PortMaster installer screen (replace with your animation)
+# Intro Message
 echo "PortMaster Installer for Batocera"
 echo "Initializing installation..."
 sleep 5
