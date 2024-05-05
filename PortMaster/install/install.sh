@@ -14,7 +14,7 @@ sleep 5
 # Download and extract PortMaster.zip to /userdata/roms/ports/Portmaster folder
 mkdir -p /userdata/roms/ports/Portmaster
 curl -L https://github.com/garbagescow/PortMaster-Batocera/raw/main/PortMaster/install/PortMaster.zip -o /tmp/PortMaster.zip
-unzip -q /tmp/PortMaster.zip -d /userdata/roms/ports/Portmaster
+unzip -q /tmp/PortMaster.zip -d /userdata/roms/ports/PortMaster
 
 # Make PortMaster.sh executable
 chmod +x /userdata/roms/ports/Portmaster/PortMaster.sh
