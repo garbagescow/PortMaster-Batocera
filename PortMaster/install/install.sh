@@ -2,7 +2,7 @@
 
 # Check if architecture is aarch64 (arm)
 if [[ "$(uname -m)" != "aarch64" ]]; then
-    echo "Error: Unsupported architecture. This installer only supports aarch64 (arm)."
+    echo "Error: Unsupported architecture. This installer only supports aarch64 (ARM64)."
     exit 1
 fi
 
